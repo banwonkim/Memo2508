@@ -20,10 +20,10 @@ struct Post{
   char tagnames**; //{"t1","t2","t3"}; 
 }
 Tag* tags[~~]={{"ads",0},{"asdf"},1. ..};
-map<std::string,Post*>tagsMap;
+map<std::string,vector<unique_ptr<Post>>>tagsMap;
 void findTagByPostId(){
 }
-void findTagByPostId(){
+void findPostIdsByTag(){
 }
 void 
 tagsMap
